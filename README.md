@@ -37,12 +37,12 @@ Want to try **EnterFirst** directly on your Android device? Download the latest 
 
 <!-- Replace the Google Drive URL below with your actual APK share link -->
 <p align="left">
-  <a href="https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing" target="_blank">
+  <a href="[https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing](https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link)" target="_blank">
     <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
   </a>
 </p>
 
-- 👉 [**Click here to Download EnterFirst APK (Google Drive)**](https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing)
+- 👉 [**Click here to Download EnterFirst APK**]([https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing](https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link))
 - **Installation Note:** After downloading, open the `.apk` file on your Android phone (Android 7.0+) and allow **"Install from unknown sources"** if prompted.
 
 ---
