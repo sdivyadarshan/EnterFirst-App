@@ -24,7 +24,7 @@ Most expense trackers demand invasive SMS permissions, bank credentials, or clou
 
 ---
 
-## 📱 App Screenshots
+##  App Screenshots
 
 <div align="center">
   <table>
