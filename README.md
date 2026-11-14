@@ -17,7 +17,7 @@
 
   <!-- Replace the Google Drive URL below with your actual APK share link -->
   <p>
-    <a href="[https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing](https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link)" target="_blank">
+    <a href="(https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link)" target="_blank">
       <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
     </a>
   </p>
