@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="docs/images/app_logo.png" width="140" alt="EnterFirst App Logo" />
 
@@ -15,10 +16,9 @@
     <img src="https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-05C492?style=for-the-badge" alt="Min SDK 24" />
   </p>
 
-  <!-- Replace the Google Drive URL below with your actual APK share link -->
   <p>
-    <a href="[https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link]" target="_blank">
-      <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
+    <a href="https://drive.google.com/uc?export=download&id=1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg" target="_blank">
+      <img src="https://img.shields.io/badge/Download%20EnterFirst%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download EnterFirst APK" />
     </a>
   </p>
 </div>
@@ -27,23 +27,37 @@
 
 ## ✨ Why EnterFirst?
 
-Most expense trackers demand invasive SMS permissions, bank credentials, or cloud sign-ins before letting you log a single rupee. **EnterFirst** flips the workflow: **enter first, pay next** — completely offline-first, with zero SMS reading and zero bank account linking.
+Most expense trackers demand invasive SMS permissions, bank credentials, or cloud sign-ins before letting you log a single rupee.
+
+**EnterFirst** flips the workflow: **enter first, pay next** — completely offline-first, with zero SMS reading and zero bank account linking.
+
+Your financial data stays under your control.
 
 ---
 
 ## 📥 Download APK
 
-Want to try **EnterFirst** directly on your Android device? Download the latest release APK from Google Drive:
+Want to try **EnterFirst** directly on your Android device?
 
-<!-- Replace the Google Drive URL below with your actual APK share link -->
 <p align="left">
-  <a href="[https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link]" target="_blank">
+  <a href="https://drive.google.com/uc?export=download&id=1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg" target="_blank">
     <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
   </a>
 </p>
 
-- 👉 [**Click here to Download EnterFirst APK**]([https://drive.google.com/file/d/1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg/view?usp=drive_link])
-- **Installation Note:** After downloading, open the `.apk` file on your Android phone (Android 7.0+) and allow **"Install from unknown sources"** if prompted.
+👉 **[Click here to Download EnterFirst APK](https://drive.google.com/uc?export=download&id=1ml0j1Wyu-12ipUA843LD0IjCweDBy2Wg)**
+
+**Installation Instructions:**
+
+1. Click the download button above.
+2. Download the APK file to your Android device.
+3. Open the downloaded `.apk` file.
+4. If prompted, allow installation from unknown sources for your browser or file manager.
+5. Complete the installation and start using EnterFirst!
+
+**Requirements:** Android 7.0 (Nougat) or newer.
+
+> Note: If Google Drive displays a confirmation page instead of downloading directly, tap the Download option. The file must be shared with "Anyone with the link" access.
 
 ---
 
@@ -69,6 +83,7 @@ Want to try **EnterFirst** directly on your Android device? Download the latest 
       </td>
     </tr>
   </table>
+
   <table>
     <tr>
       <td align="center" width="50%">
@@ -77,7 +92,7 @@ Want to try **EnterFirst** directly on your Android device? Download the latest 
         <sub>Interactive category donut charts, monthly trends &amp; savings insights</sub>
       </td>
       <td align="center" width="50%">
-        <img src="docs/images/screenshot_settings.png" width="230" alt="Settings &amp; Google Drive Auto-Backup" /><br/>
+        <img src="docs/images/screenshot_settings.png" width="230" alt="Settings & Google Drive Auto-Backup" /><br/>
         <strong>⚙️ Settings &amp; Auto-Backup</strong><br/>
         <sub>Manage Multi-UPI QRs, Dark/Light theme &amp; Google Drive backups</sub>
       </td>
@@ -90,10 +105,15 @@ Want to try **EnterFirst** directly on your Android device? Download the latest 
 ## 🚀 Key Features
 
 - **⚡ Scan & Pay UPI Workflow** — Scan merchant QR codes using **CameraX + Google ML Kit** (or pick from gallery), enter the amount, categorize the expense first, and launch your preferred UPI app seamlessly.
+
 - **📲 Multi-UPI QR Hub (Quick Logo Access)** — Store QR codes from **Google Pay, Paytm, PhonePe, BHIM, Navi, Cred, Amazon Pay**, or custom UPI apps locally. Tap the top-left app logo anytime to view zoomed 1:1 QR codes and swipe left/right between them, or reorder & edit them from **Settings → Manage Multi-UPI QRs**.
+
 - **💰 Offline-First Balance & Budget Ledger** — Track **Bank** and **Cash** balances separately with custom category chips, monthly budget progress alerts, and a **Built-in Calculator Keypad** for quick math while logging transactions.
+
 - **📊 Rich Analytics & Comparisons** — Switch between native Jetpack Compose charts and interactive **Recharts** visualizations, compare financial parameters across periods, and track net savings.
+
 - **🧾 Receipt Attachments & OCR** — Attach payment receipts or screenshots via the zero-permission Android Photo Picker and extract transaction details with **ML Kit Text Recognition**.
+
 - **☁️ Optional Google Drive Auto-Backup & CSV Export** — Export transactions to CSV anytime or link your Google account for scheduled **Daily, Weekly, or Monthly** backups to your personal Google Drive (`drive.file` scope).
 
 ---
@@ -117,31 +137,59 @@ Want to try **EnterFirst** directly on your Android device? Download the latest 
 ## 💻 Run Locally
 
 ### Prerequisites
+
 - [Android Studio](https://developer.android.com/studio) (Ladybug or newer recommended)
 - Android SDK 36 (Min SDK 24)
 - JDK 11+
 
 ### Setup Steps
+
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd <project-folder>
    ```
+
 2. **Open in Android Studio**
+
    Select **Open** and choose the root project directory. Let Gradle sync all dependencies.
+
 3. **Configure Environment Variables (Optional)**
+
    Copy `.env.example` to `.env` if you use custom Secrets Gradle Plugin keys:
+
    ```bash
    cp .env.example .env
    ```
+
 4. **Build & Run**
-   Select a physical Android device or emulator and click **Run** (or execute `gradle :app:assembleDebug` from the terminal).
+
+   Select a physical Android device or emulator and click **Run**.
+
+   Alternatively, execute:
+
+   ```bash
+   gradle :app:assembleDebug
+   ```
 
 ---
 
 ## 📄 Documentation & Developer
 
 - **User Manual:** See [`EnterFirst_User_Manual.pdf`](EnterFirst_User_Manual.pdf)
-- **Developer:** **S Divya Darshan** (`sddarshan2007@gmail.com`)
-  - [LinkedIn](https://www.linkedin.com/in/s-divyadarshan-796076376/)
-  - [Instagram](https://www.instagram.com/_.daxrshnxz/)
+
+- **Developer:** **S Divya Darshan**
+
+- **Email:** [sddarshan2007@gmail.com](mailto:sddarshan2007@gmail.com)
+
+- **LinkedIn:** [S Divya Darshan](https://www.linkedin.com/in/s-divyadarshan-796076376/)
+
+- **Instagram:** [@_.daxrshnxz](https://www.instagram.com/_.daxrshnxz/)
+
+---
+
+<div align="center">
+  <h3>💚 EnterFirst — Your Money. Your Data. Your Control.</h3>
+  <p>Made with ❤️ by S Divya Darshan</p>
+</div>
