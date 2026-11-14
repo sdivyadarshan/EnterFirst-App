@@ -1,7 +1,7 @@
 ID,Type,Amount,Party,Category,Note,Timestamp,PaymentStatus,PaymentMethod,MerchantUpiId
-3,EXPENSE,10.0,Yogesh,Food,,1783072280084,PAID,BANK,s.yogesh2007dec@okicici
+3,EXPENSE,10.0,Yogesh,Food,,1783072280084,PAID,BANK,-
 2,EXPENSE,100.0,swiggy,Food,,1783072257482,PAID,BANK,
-1,EXPENSE,10.0,Yogesh,Food,,1783070689170,PAID,BANK,s.yogesh2007dec@okicici
+1,EXPENSE,10.0,Yogesh,Food,,1783070689170,PAID,BANK,s
 4,INCOME,300.0,ATM,Refund,,1783072346092,PAID,BANK,shop@okaxis
 5,EXPENSE,300.0,Zomato,Food,,1783072380467,PAID,BANK,friend@upi
 6,EXPENSE,1500.0,ATM,Groceries,,1783072461130,PAID,CASH,friend@upi
