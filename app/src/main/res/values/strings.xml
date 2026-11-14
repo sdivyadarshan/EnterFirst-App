@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EnterFirst</string>
+    <string name="attribution_camera">Camera Access for UPI QR Code Scanning</string>
 </resources>

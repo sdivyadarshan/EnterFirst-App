@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer Gear Body and Teeth -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,4 L66,4 L68,16.5 C72.5,17.8 76.7,19.9 80.4,22.7 L91.2,16.1 L99.7,24.6 L93.1,35.4 C95.9,39.1 98,43.3 99.3,47.8 L111.8,49.8 L111.8,61.8 L99.3,63.8 C98,68.3 95.9,72.5 93.1,76.2 L99.7,87 L91.2,95.5 L80.4,88.9 C76.7,91.7 72.5,93.8 68,95.1 L66,107.6 L54,107.6 L52,95.1 C47.5,93.8 43.3,91.7 39.6,88.9 L28.8,95.5 L20.3,87 L26.9,76.2 C24.1,72.5 22,68.3 20.7,63.8 L8.2,61.8 L8.2,49.8 L20.7,47.8 C22,43.3 24.1,39.1 26.9,35.4 L20.3,24.6 L28.8,16.1 L39.6,22.7 C43.3,19.9 47.5,17.8 52,16.5 Z" />
+    <!-- Inner Cutout Circle -->
+    <path
+        android:fillColor="#0B1320"
+        android:pathData="M60,60m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
+    <!-- Inner Hub Ring -->
+    <path
+        android:fillColor="#00FF66"
+        android:pathData="M60,60m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <!-- Axle Center Bore -->
+    <path
+        android:fillColor="#0B1320"
+        android:pathData="M60,60m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+</vector>
