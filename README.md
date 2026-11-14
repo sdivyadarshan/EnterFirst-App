@@ -14,6 +14,13 @@
     <img src="https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
     <img src="https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-05C492?style=for-the-badge" alt="Min SDK 24" />
   </p>
+
+  <!-- Replace the Google Drive URL below with your actual APK share link -->
+  <p>
+    <a href="https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing" target="_blank">
+      <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
+    </a>
+  </p>
 </div>
 
 ---
@@ -24,7 +31,23 @@ Most expense trackers demand invasive SMS permissions, bank credentials, or clou
 
 ---
 
-##  App Screenshots
+## 📥 Download APK
+
+Want to try **EnterFirst** directly on your Android device? Download the latest release APK from Google Drive:
+
+<!-- Replace the Google Drive URL below with your actual APK share link -->
+<p align="left">
+  <a href="https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/Click%20to%20Download%20APK-Google%20Drive-05C492?style=for-the-badge&logo=googledrive&logoColor=white" alt="Click to Download EnterFirst APK" />
+  </a>
+</p>
+
+- 👉 [**Click here to Download EnterFirst APK (Google Drive)**](https://drive.google.com/file/d/YOUR_GOOGLE_DRIVE_APK_LINK/view?usp=sharing)
+- **Installation Note:** After downloading, open the `.apk` file on your Android phone (Android 7.0+) and allow **"Install from unknown sources"** if prompted.
+
+---
+
+## 📱 App Screenshots
 
 <div align="center">
   <table>
